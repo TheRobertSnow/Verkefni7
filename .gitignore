@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +27,7 @@
 *.exe
 *.out
 *.app
+=======
+.sass-cache/
+*.css.map
+>>>>>>> cf39605c6eced3ee7bb9279cf153b44613a1614d

@@ -7,7 +7,6 @@ height: 100%;
 #i1 { left: 100%; background-color: #fff; }
 #i2 { left: 200%; background-color: #bbb; }
 #i3 { left: 300%; background-color: #777; }
-#i4 { left: 400%; background-color: #555; }
 .page 
 { 
 -webkit-transition: -webkit-transform 0.8s;
@@ -18,7 +17,6 @@ transition: transform 0.8s;
 #a1:target .page { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
 #a2:target .page { -webkit-transform: translateX(-200%); -moz-transform: translateX(-200%); -o-transform: translateX(-200%); transform: translateX(-200%); }
 #a3:target .page { -webkit-transform: translateX(-300%); -moz-transform: translateX(-300%); -o-transform: translateX(-300%); transform: translateX(-300%); }
-#a4:target .page { -webkit-transform: translateX(-400%); -moz-transform: translateX(-400%); -o-transform: translateX(-400%); transform: translateX(-400%); }
 .page 
 { 
 -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%);
@@ -101,8 +99,7 @@ transition: all 1s;
 }
 #a1:target #p1,
 #a2:target #p2,
-#a3:target #p3,
-#a4:target #p4 
+#a3:target #p3
 { 
 background-color: red; 
 color: #fff; 

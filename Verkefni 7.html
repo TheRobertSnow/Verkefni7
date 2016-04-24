@@ -1,34 +1,150 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="is">
-    <head>
-        <meta charset="utf-8">
-        <title>Verkefni 7</title>
-        <link rel="stylesheet" href="Verkefni 7.css">
-    </head>
-    <body>
-    <h1>Verfkefni 7</h1>
-    <header class="group">
-
-    </header>
-    <article>
-    	
-    </article>
-    <aside>
-    	
-    </aside>
-    <footer>
-    	
-    </footer>
-    </body>
-=======
-<<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
-<head>
-	<title>tittlingurinn daniel</title>
-</head>
-<body>
+<title>Pure CSS Slideshow</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width = device-width;"> 
+<meta charset="utf-8">
 
-</body>
->>>>>>> d69103c0ebbf405a5e892ba68e93df6e993ec470
-</html>
+<!-- Should work in Chrome, Safari, Opera and Firefox 4. 
+     Graceful Degradation in older Versions (no transition effects).
+     Except Internet Explorer of course. -->
+
+<!-- Every page has its own #url for direct links.
+     Check your browserhistory. Its not broken. -->
+
+
+
+<!-- This is for the ipad. Check it there too. -->
+
+<script> 
+ function BlockMove(event) {
+  // Tell Safari not to move the window.
+  event.preventDefault() ;
+ }
+</script> 
+<body ontouchmove="BlockMove(event);"> 
+
+ 
+
+
+
+
+
+
+
+
+<!-- These divs are used for anchor-jumps with the pseudoclass :target -->
+
+<div id="a1">
+ <div id="a2">
+  <div id="a3">
+    <div id="a4">
+
+
+
+   <!-- Top Navigation. Ya, tables are evil. -->
+
+   <table> 
+    <tr> 
+     <td><a href="#a1" id="p1">1</a></td> 
+     <td><a href="#a2" id="p2">2</a></td> 
+     <td><a href="#a3" id="p3">3</a></td> 
+     <td><a href="#a4" id="p4">4</a></td>
+    </tr> 
+   </table>
+
+
+
+   <!-- Fallback -->
+
+   <div id="i0" class="page">
+
+    <h1>Your browser sucks.</h1>
+
+   </div>
+
+
+
+   <!-- First Page #a1 -->
+
+   <div id="i1" class="page">
+
+    <a href="#a4" class="backbutton"></a>
+    <a href="#a2" class="nextbutton"></a>
+
+    <h1>Pure CSS Slideshow</h1>
+
+    <img src="img_1.jpg">
+
+   </div>
+
+
+
+   <!-- Second Page #a2 -->
+
+   <div id="i2" class="page">
+
+    <a href="#a1" class="backbutton"></a>
+    <a href="#a3" class="nextbutton"></a>
+
+    <h1>Simplified Demo</h1>
+
+    <img src="img_2.jpg">
+
+   </div>
+
+
+
+   <!-- Third Page #a3 -->
+
+   <div id="i3" class="page">
+
+    <a href="#a2" class="backbutton"></a>
+    <a href="#a4" class="nextbutton"></a>
+
+    <h1>Check the Source Code</h1>
+
+    <img src="img_3.jpg">
+
+   </div>
+
+
+   <div id="i4" class="page">
+
+    <a href="#a3" class="backbutton"></a>
+    <a href="#a1" class="nextbutton"></a>
+
+    <h1>Vertu úti</h1>
+
+    <img src="img_4.jpg">
+
+   </div>
+
+
+   </div>
+  </div>
+ </div>
+</div>
+
+
+<!-- The End -->
+
+<footer>
+
+ <a href="http://www.designmadeingermany.de/" class="link">Design made in Germany</a> <b>'2010</b>
+
+</footer>
+
+<iframe allowtransparency="true" frameborder="0" role="presentation" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fwww.designmadeingermany.de%2Fslideshow%2F&text=Pure CSS Slideshow:&via=Dmig" style="width:105px; height: 30px; position: fixed; bottom: 50px; right: 50px; z-index: 100;"></iframe> 
+
+
+
+
+
+
+
+<div style="position: fixed;">
+<div id="viceContentAd" data-src="a-designmadeingermany-unkategorisiert"></div>
+<div id="comScore"></div>
+<script type="text/javascript" src="http://advice-ads.s3.amazonaws.com/DE/viceIVW-CS.js"></script>
+</div>

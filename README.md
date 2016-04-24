@@ -1,2 +1,2 @@
 # Verkefni_7
-þetta er breyting á texta ok
+þetta er breyting á texta

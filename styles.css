@@ -151,20 +151,29 @@ transition: background 0s;
 .myButton:active {
 
 }
+legend
+{
+	text-align: center;
+}
 article
 {
 	float: left;
-	width: 10%;
+	width: 40%;
 	padding: 20px;
 	overflow: auto;
 	box-sizing:border-box;
 	color: black;
 	font-size: 17px;
 }
+select
+{
+	margin-left: 10px;
+}
 label
 {
 	display: block;
 	padding-top: 10px;
+	padding-left: 10px;
 }
 fieldset
 {
@@ -172,7 +181,9 @@ fieldset
 }
 input
 {
+	width: 300px;
 	padding: 10px;
+	margin-left: 10px;
 	border-radius: 7px;
 }
 input[type=submit]
@@ -181,6 +192,8 @@ input[type=submit]
 	background-image: url("http://orig12.deviantart.net/f9ad/f/2012/101/e/0/camo_pattern_by_nw_racing_kennels-d4vubvo.png");
 	margin: auto;
 	padding: 10px;
+	margin-bottom: 10px;
+	width: 320px;
 	font-size: 20px;
 	color: white;
 	box-shadow: 2px 2px 5px black;
@@ -209,7 +222,8 @@ tbody th
 }
 textarea
 {
-	width: 193px;
+	width: 320px;
+	margin-left: 10px;
 	height: 100px;
 	font-size: 20px;
 	font-family: 'Dosis', sans-serif;
@@ -223,7 +237,7 @@ label
 aside
 {
 	float: left;
-	width: 13%;
+	width: 20%;
 	border: 2px solid ;
 	padding: 15px;
 	overflow: auto;

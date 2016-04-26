@@ -122,7 +122,7 @@ transition: background 0s;
 	-webkit-border-radius:6px;
 	border-radius:6px;
 	border:1px solid #3866a3;
-	display:inline-block;
+	display:block;
 	cursor:pointer;
 	color:#14396a;
 	font-family:Arial;
@@ -132,9 +132,11 @@ transition: background 0s;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #7cacde;
 	position: relative;
-	float: left;
-	margin-left: 59em;
-	position: relative;
+	width: 10em;
+	z-index: 10;
+	top: 38em;
+	left: 56.5em;
+	text-align: center;
 }
 .myButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
@@ -147,8 +149,7 @@ transition: background 0s;
 	background-color:#468ccf;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+
 }
 article
 {

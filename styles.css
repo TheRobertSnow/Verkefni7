@@ -11,7 +11,7 @@ height: 100%;
 
 /* The Pages */
 
-#i1 
+#i0 
 { 
 left: 0%; 
 background-color: #fff; 
@@ -33,7 +33,7 @@ background-image: url("img_6.jpg");
 { 
 left: 300%; 
 background-color: #777; 
-background-image: url("img_6.jpg"); 
+background-image: url("img_6.jpg");
 }
 
 
@@ -54,24 +54,24 @@ transition: transform 0.8s;
 
 #a1:target .page 
 { 
--webkit-transform: translateX(-100%); 
--moz-transform: translateX(-100%); 
--o-transform: translateX(-100%); 
-transform: translateX(-100%); 
+-webkit-transform: TranslateX(-100%); 
+-moz-transform: TranslateX(-100%); 
+-o-transform: TranslateX(-100%); 
+transform: TranslateX(-100%); 
 }
 #a2:target .page 
 { 
--webkit-transform: translateX(-200%); 
--moz-transform: translateX(-200%); 
--o-transform: translateX(-200%); 
-transform: translateX(-200%); 
+-webkit-transform: TranslateX(-200%); 
+-moz-transform: TranslateX(-200%); 
+-o-transform: TranslateX(-200%); 
+transform: TranslateX(-200%); 
 }
 #a3:target .page 
 { 
--webkit-transform: translateX(-300%); 
--moz-transform: translateX(-300%); 
--o-transform: translateX(-300%); 
-transform: translateX(-300%); 
+-webkit-transform: TranslateX(-300%); 
+-moz-transform: TranslateX(-300%); 
+-o-transform: TranslateX(-300%); 
+transform: TranslateX(-300%); 
 }
 
 
@@ -80,10 +80,10 @@ transform: translateX(-300%);
 
 .page 
 { 
--webkit-transform: translateX(-100%); 
--moz-transform: translateX(-100%); 
--o-transform: translateX(-100%); 
-transform: translateX(-100%);
+-webkit-transform: TranslateX(-100%); 
+-moz-transform: TranslateX(-100%); 
+-o-transform: TranslateX(-100%); 
+transform: TranslateX(-100%);
 }
 
 /* Basic Styles */

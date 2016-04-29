@@ -13,9 +13,7 @@ height: 100%;
 #i1 { left: 0%; background-color: #fff; }
 #i1 { left: 100%; background-color: #fff; }
 #i2 { left: 200%; background-color: #bbb; }
-#i3 { left: 300%; background-color: #777; }
-#i4 { left: 400%; background-color: #555; }
-
+#i3 { left: 300%; background-color: #777; background-image: url("img_6.jpg"); }
 
 
 /* The Transition Effect */
@@ -35,7 +33,6 @@ transition: transform 0.8s;
 #a1:target .page { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
 #a2:target .page { -webkit-transform: translateX(-200%); -moz-transform: translateX(-200%); -o-transform: translateX(-200%); transform: translateX(-200%); }
 #a3:target .page { -webkit-transform: translateX(-300%); -moz-transform: translateX(-300%); -o-transform: translateX(-300%); transform: translateX(-300%); }
-#a4:target .page { -webkit-transform: translateX(-400%); -moz-transform: translateX(-400%); -o-transform: translateX(-400%); transform: translateX(-400%); }
 
 
 
@@ -49,9 +46,6 @@ transition: transform 0.8s;
 
 * { margin: 0; padding: 0; }
 body { overflow: hidden; color: #222; font-family: helvetica, arial; line-height: 1.2; } a:active { outline: none;}
-.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
-.nextbutton { cursor: url('right.png'), e-resize; right: 0; }
-.backbutton { cursor: url('left.png'), w-resize; left: 0; }
 h1 { text-align: center; padding: 0 50px; margin-top: 150px; font-size: 50px; }
 img { margin: 0 auto; display: block; margin-top: 50px; position: relative;}
 footer { z-index: 2; position: fixed; bottom: 60px; left: 50%; width: 600px; margin-left: -300px; text-align: center; }

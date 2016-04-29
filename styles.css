@@ -1,10 +1,7 @@
 /* The Basic Style for all Pages */
-body{
-	background-image: url("img_6.jpg");
-	background-size: 100% 100%;
-	background-attachment: fixed;
-}
-.page { 
+
+.page 
+{ 
 position: absolute; 
 width: 100%; 
 height: 100%; 
@@ -14,15 +11,36 @@ height: 100%;
 
 /* The Pages */
 
-#i1 { left: 0%; }
-#i1 { left: 100%; }
-#i2 { left: 200%; }
-#i3 { left: 300%; }
+#i1 
+{ 
+left: 0%; 
+background-color: #fff; 
+background-image: url("img_6.jpg");
+}
+#i1 
+{ 
+left: 100%;
+background-color: #fff; 
+background-image: url("img_6.jpg");
+}
+#i2 
+{ 
+left: 200%; 
+background-color: #bbb; 
+background-image: url("img_6.jpg");
+}
+#i3 
+{ 
+left: 300%; 
+background-color: #777; 
+background-image: url("img_6.jpg"); 
+}
 
 
 /* The Transition Effect */
 
-.page { 
+.page 
+{ 
 -webkit-transition: -webkit-transform 0.8s;
 -moz-transition: -moz-transform 0.8s;
 -o-transition: -o-transform 0.8s;
@@ -34,43 +52,100 @@ transition: transform 0.8s;
 /* The Sliding Action */
 /* TranslateX for better Performance. Translate3D for better Performance on Ipad. */
 
-#a1:target .page { -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); }
-#a2:target .page { -webkit-transform: translateX(-200%); -moz-transform: translateX(-200%); -o-transform: translateX(-200%); transform: translateX(-200%); }
-#a3:target .page { -webkit-transform: translateX(-300%); -moz-transform: translateX(-300%); -o-transform: translateX(-300%); transform: translateX(-300%); }
+#a1:target .page 
+{ 
+-webkit-transform: translateX(-100%); 
+-moz-transform: translateX(-100%); 
+-o-transform: translateX(-100%); 
+transform: translateX(-100%); 
+}
+#a2:target .page 
+{ 
+-webkit-transform: translateX(-200%); 
+-moz-transform: translateX(-200%); 
+-o-transform: translateX(-200%); 
+transform: translateX(-200%); 
+}
+#a3:target .page 
+{ 
+-webkit-transform: translateX(-300%); 
+-moz-transform: translateX(-300%); 
+-o-transform: translateX(-300%); 
+transform: translateX(-300%); 
+}
 
 
 
 /* The First Page - Initial Positioning without Anchor */
 
-.page { 
--webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%);
+.page 
+{ 
+-webkit-transform: translateX(-100%); 
+-moz-transform: translateX(-100%); 
+-o-transform: translateX(-100%); 
+transform: translateX(-100%);
 }
 
 /* Basic Styles */
 
-* { margin: 0; padding: 0; }
-body { 
-	overflow: hidden; 
-	color: #222; 
-	font-family: helvetica, arial; 
-	line-height: 1.2; 
-	background-image: url("img_6.jpg");
-	background-size: 100% 100%;
-	background-attachment: fixed; 
-	} 
-	a:active { 
-		outline: none;
-	}
-h1 { text-align: center; padding: 0 50px; margin-top: 150px; font-size: 50px; }
-img { margin: 0 auto; display: block; margin-top: 50px; position: relative;}
-footer { z-index: 2; position: fixed; bottom: 60px; left: 50%; width: 600px; margin-left: -300px; text-align: center; }
-footer a.link { color: #111; font-size: 15px; font-weight: bold; text-decoration: none; border-bottom: solid 2px; }
-footer a.link:hover { color: red; }
+* 
+{ 
+margin: 0; 
+padding: 0; 
+}
+body 
+{ 
+overflow: hidden; 
+color: #222; 
+font-family: helvetica, arial; 
+line-height: 1.2; 
+} 
+a:active 
+{ 
+outline: none;
+}
+h1 
+{ 
+text-align: center; 
+padding: 0 50px; 
+margin-top: 150px; 
+font-size: 50px; 
+}
+img 
+{ 
+margin: 0 auto; 
+display: block; 
+margin-top: 50px; 
+position: relative;
+}
+footer 
+{ 
+z-index: 2; 
+position: fixed; 
+bottom: 60px; 
+left: 50%; 
+width: 600px; 
+margin-left: -300px; 
+text-align: center; 
+}
+footer a.link 
+{ 
+color: #111;
+font-size: 15px;
+font-weight: bold;
+text-decoration: none
+border-bottom: solid 2px;
+}
+footer a.link:hover 
+{ 
+color: red; 
+}
 
 
 /* Top Navigation.  */
 
-table { 
+table 
+{ 
 display: table;
 width: 100%; 
 cellspacing: 0; 
@@ -83,7 +158,8 @@ right: 0;
 }
 
 
-table a {
+table a 
+{
 line-height: 54px;
 font-family: helvetica, arial;
 font-size: 11px;
@@ -103,10 +179,14 @@ transition: all 1s;
 
 #a1:target #p1,
 #a2:target #p2,
-#a3:target #p3,
-#a4:target #p4 { background-color: red; color: #fff; }
+#a3:target #p3 
+{ 
+background-color: red; 
+color: #fff; 
+}
 
-table a:hover {
+table a:hover 
+{
 background-color: #444;
 -moz-transition: background 0s; 
 -webkit-transition: background 0s; 
@@ -115,7 +195,8 @@ transition: background 0s;
 }
 
 /* Button */
-.myButton {
+.myButton 
+{
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	box-shadow:inset 0px 1px 0px 0px #bee2f9;
@@ -147,7 +228,8 @@ transition: background 0s;
 	top: 38em;
 	text-align: center;
 }
-.myButton:hover {
+.myButton:hover 
+{
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
 	background:-moz-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
 	background:-webkit-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
@@ -157,7 +239,8 @@ transition: background 0s;
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee',GradientType=0);
 	background-color:#468ccf;
 }
-.myButton:active {
+.myButton:active 
+{
 
 }
 
@@ -240,7 +323,7 @@ aside
     box-sizing:border-box;
 	background-color: white;
 	color: black;
-	border-radius: 1em;
+	border-radius: 1em;	
 	margin: auto;
 
 }

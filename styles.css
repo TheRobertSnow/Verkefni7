@@ -10,9 +10,9 @@ height: 100%;
 
 /* The Pages */
 
-#i1 { left: 0%; background-color: #fff; }
-#i1 { left: 100%; background-color: #fff; }
-#i2 { left: 200%; background-color: #bbb; }
+#i1 { left: 0%; background-color: #fff; background-image: url("img_6.jpg");}
+#i1 { left: 100%; background-color: #fff; background-image: url("img_6.jpg");}
+#i2 { left: 200%; background-color: #bbb; background-image: url("img_6.jpg");}
 #i3 { left: 300%; background-color: #777; background-image: url("img_6.jpg"); }
 
 

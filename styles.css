@@ -1,5 +1,9 @@
 /* The Basic Style for all Pages */
-
+body{
+	background-image: url("img_6.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
 .page { 
 position: absolute; 
 width: 100%; 
@@ -10,10 +14,10 @@ height: 100%;
 
 /* The Pages */
 
-#i1 { left: 0%; background-color: #fff; background-image: url("img_6.jpg");}
-#i1 { left: 100%; background-color: #fff; background-image: url("img_6.jpg");}
-#i2 { left: 200%; background-color: #bbb; background-image: url("img_6.jpg");}
-#i3 { left: 300%; background-color: #777; background-image: url("img_6.jpg"); }
+#i1 { left: 0%; }
+#i1 { left: 100%; }
+#i2 { left: 200%; }
+#i3 { left: 300%; }
 
 
 /* The Transition Effect */
@@ -45,7 +49,18 @@ transition: transform 0.8s;
 /* Basic Styles */
 
 * { margin: 0; padding: 0; }
-body { overflow: hidden; color: #222; font-family: helvetica, arial; line-height: 1.2; } a:active { outline: none;}
+body { 
+	overflow: hidden; 
+	color: #222; 
+	font-family: helvetica, arial; 
+	line-height: 1.2; 
+	background-image: url("img_6.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed; 
+	} 
+	a:active { 
+		outline: none;
+	}
 h1 { text-align: center; padding: 0 50px; margin-top: 150px; font-size: 50px; }
 img { margin: 0 auto; display: block; margin-top: 50px; position: relative;}
 footer { z-index: 2; position: fixed; bottom: 60px; left: 50%; width: 600px; margin-left: -300px; text-align: center; }

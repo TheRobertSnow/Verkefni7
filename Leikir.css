@@ -1,3 +1,14 @@
+.logo {
+	background-image: url(EM-2016.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 5em;
+	line-height: 5em;
+	width: 7em;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 2em 1em 2em 1em;
+}
 /* The Basic Style for all Pages */
 
 .page 
@@ -333,7 +344,6 @@ h1
 { 
 text-align: center; 
 padding: 0 50px; 
-margin-top: 80px; 
 font-size: 50px; 
 font-family: 'Titillium Web', sans-serif;
 }

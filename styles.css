@@ -106,10 +106,10 @@ font-size: 40px;
 }
 img 
 { 
-margin: 0 auto; 
-display: block; 
-margin-top: 50px; 
+margin: 4em; 
+display: block;  
 position: relative;
+float: left;
 }
 footer 
 { 

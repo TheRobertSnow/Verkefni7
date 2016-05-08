@@ -352,7 +352,7 @@ aside
 	height: 3.5em;
 	border: none;
 	text-align: center;
-	float: left;
+	float: right;
 }
 .flag {
 	width: 3em;
@@ -362,14 +362,14 @@ aside
 	float: left;
 
 }
-<<<<<<< HEAD
+
 .text-a {
 	text-decoration: none;
 	color: black;
 	font-size: 30px;
 	font-family: 'Francois One', sans-serif;
 	color: #91B2FF;
-=======
+
 .logo {
 	background-image: url(EM-2016.png);
 	background-repeat: no-repeat;
@@ -379,5 +379,4 @@ aside
 	width: 7em;
 	margin: 0 auto;
 	padding: 2em 1em 2em 1em;
->>>>>>> e4f4d8834b7d7de3228291b428092d8cf7a9950c
 }

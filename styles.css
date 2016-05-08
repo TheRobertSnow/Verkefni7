@@ -361,3 +361,13 @@ aside
 	float: left;
 
 }
+.logo {
+	background-image: url(EM-2016.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 5em;
+	line-height: 5em;
+	width: 7em;
+	margin: 0 auto;
+	padding: 2em 1em 2em 1em;
+}
